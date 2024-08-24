@@ -1,0 +1,408 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 120px;
+}
+ul{
+    display: flex;
+    gap: 60px;
+}
+
+
+.hero{
+    margin: 130px 120px;
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+.hero-image img{
+   width: 100%;
+}
+
+
+.hero-text{
+    width: 50%;
+}
+.hero-text p{
+    font-size: 1.5rem;
+    width: 600px;
+    line-height: 36px;
+    margin-bottom: 20px;
+
+}
+.hero-text h2{
+    font-size: 4rem;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+nav .menu li a::before{
+    
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--secondarycolor);
+    transition: 0.35s;
+}
+.btn-primary{
+    border-radius: 20px;
+    background-color: var(--primarycolor);
+    font-weight: 600;
+    font-size: 20px;
+    line-height:36px;
+    border: none;
+    color: white;
+    ;
+    padding: 16px 45px;
+    background-color: yellow
+
+    ;
+}
+.special{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+
+nav .menu li:hover a::before{
+    width: 100%;
+}
+
+.icon{
+    display: flex;
+    padding: 10px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#banner .socail-link{
+    margin-top: 66px;
+}
+
+.about-section{
+    margin-top: -90px;
+    background: rgb(36,25,0);
+background: linear-gradient(90deg, rgba(36,25,0,1) 0%, rgba(250,176,56,1) 0%, rgba(255,171,53,1) 61%, rgba(250,176,56,1) 66%, rgba(255,154,0,1) 73%);
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-image{
+    max-width: 650px;
+}
+.about-image img{
+    max-width:80%;
+     
+}
+.about-text{
+    max-width: 650px;
+}
+.about-text h2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "PT Sans", sans-serif;
+    color: #353535;
+
+}
+.about-text p{
+    font-size: 1.25rem;
+    line-height: 190%;
+    color: #353535;
+    font-family: "Poppins", sans-serif;
+}
+.about-btn{
+    padding: 17px 45px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: ease-in-out;
+
+}
+.about-btn:hover{
+    background-color: blanchedalmond;
+    color: #ff9100;
+    font-weight: 600;
+}
+
+/* Card Section */
+.card-section{
+    margin: 151px 165px;
+}
+.card{
+    width: 200px;
+    padding: 47px 57px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: 4px solid whitesmoke;
+}
+.card img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 18px;
+}
+.card h2{
+    color: #353535;
+    margin-bottom: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.card p{
+    color: #7A7A7A;
+    line-height: 190%;
+    font-family: "Poppins", sans-serif;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    
+}
+.card-section{
+    background-color: aliceblue;
+}
+
+/* Brandind Section */
+#branding-section{
+    margin: 0 160px;
+    margin-top: 110px;
+}
+.branding{
+    background-image: linear-gradient(to right, #FFCC00 , #FFF5CB);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px;
+    
+    align-items: center;
+    position: relative;
+   
+}
+.branding-img img{
+    width: 100%;
+    top: 15px;
+    position: relative;
+    
+}
+.branding-text h2{
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 21px;
+
+}
+.branding-text p{
+    color: #353535;
+    font-size: 1.025rem;
+    line-height: 190%;
+    margin-bottom: 21px;
+    width: 80%;
+
+}
+.branding-text a{
+    padding: 18px 38px;
+    border: 1px solid #353535;
+    border-radius: 20px;
+
+}
+.branding-po{
+    position: absolute;
+    right: 35px;
+    top: -35px;
+ 
+}
+/* Help Section */
+.help-section{
+    margin: 130px 165px;
+
+}
+.help{
+    display: flex;
+}
+.help-cards{
+    width: 50%;
+}
+.help-text{
+    width: 50%;
+    text-align: right;
+}
+.help-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "PT Sans", sans-serif;
+    margin-bottom: 26px;
+}
+.help-text p{
+    font-size: 1.05rem;
+    line-height: 190%;
+    margin-bottom: 30px;
+}
+.help-card{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    width: 340px;
+    padding: 17px 15px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
+.help-card .help-image img{
+width: 80%;
+    
+  
+}
+.help-image-text h2{
+    font-size: 18px;
+}
+.help-image-text p{
+    font-size: 12px;
+}
+
+.help-over{
+    display: inline-block;
+    text-align: left;
+    
+}
+.one{
+    margin-right: 60px;
+}
+
+/* Service Section */
+#service-section{
+    background-color: #FFF7D5;
+    padding-bottom: 30px;
+    padding: 30px;
+  }
+  #service-section .title-text{
+    text-align: center;
+  }
+  #service-section .title-text h2{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 13px;
+  }
+  #service-section .title-text p{
+    color: #7A7A7A;
+  }
+ 
+
+  .service-cards{
+    margin: 90px 165px;
+    display: flex;
+    gap: 25px;
+  }
+.service-card{
+    width: 30%;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+.special-card{
+    background-image: linear-gradient(to top, #FFF5CB ,#FFCC00);
+    height: 40%; 
+    transform: scale(1.08);  
+}
+.service-card img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+   
+}
+.service-card h3{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #575757;
+    
+}
+.footer{
+    padding: 100px 165px;
+    display: flex;
+    
+}
+.footer-logo{
+    width: 30%;
+}
+.footer-details{
+    width: 40%;
+}
+.footer-links{
+    width: 30%;
+}
+.footer-logo h1{
+    font-family: "Potta One", system-ui;
+    font-size: 1.75rem;
+    line-height: 40px;
+    margin-bottom: 150px;
+}
+.footer-logo .sal{
+    color: white;
+}
+.footer-logo .man{
+    color: #F8BC17;
+}
+.footer-logo p{
+    color: #BBB9B9;
+    
+}
+.footer-logo span{
+    color: white;
+
+}
+.footer-details h2{
+    font-size: 2rem;
+    color: white;
+}
+.footer-details p{
+    color: #BBB9B9;
+    line-height: 180%;
+    margin-bottom: 11%;
+}
+.footer-details span{
+    color: white;
+}
+
+.footer-links a{
+    margin-left: 100px;
+}
+.footer-links .follow{
+    color: white;
+    
+    margin-top: 180px;
+}
+.footer-links .follow .follow-title{
+    color: white;
+}
+.footer-links .follow .follow-icon img{
+    color: white;
+}
+
+
+
